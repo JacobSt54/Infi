@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Main {
+public class If1 {
 
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-public class LOOPS{
+public class Loops2 {
 
     public static void main(String[] args) {
         int summe = 0;
