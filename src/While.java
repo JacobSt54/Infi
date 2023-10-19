@@ -1,6 +1,6 @@
 import java.util.Random;
 
-    public class ZFS {
+    public class While {
         public static void main(String[] args) {
             Random rand = new Random();
             int sum = 0;
