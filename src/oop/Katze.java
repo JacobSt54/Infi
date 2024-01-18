@@ -1,7 +1,7 @@
 package oop;
 
 public class Katze {
-    private String character;
+    private String charakter;
     private String oberflaechenbeschaffenheit;
     private int alter;
     private String farbe;
@@ -10,28 +10,28 @@ public class Katze {
     public Katze() {
     }
 
-    public Katze(String character, String oberflaechenbeschaffenheit, int alter, String farbe, String name) {
-        this.character = character;
+    public Katze(String charakter, String oberflaechenbeschaffenheit, int alter, String farbe, String name) {
+        this.charakter = charakter;
         this.oberflaechenbeschaffenheit = oberflaechenbeschaffenheit;
         this.alter = alter;
         this.farbe = farbe;
         this.name = name;
     }
 
-    public String getCharacter() {
-        return character;
+    public String getCharakter() {
+        return charakter;
     }
 
-    public void setCharacter(String character) {
-        this.character = character;
+    public void setCharakter(String charakter) {
+        this.charakter = charakter;
     }
 
-    public String getOberflächenbeschaffenheit() {
+    public String getOberflaechenbeschaffenheit() {
         return oberflaechenbeschaffenheit;
     }
 
-    public void setOberflächenbeschaffenheit(String oberflächenbeschaffenheit) {
-        this.oberflaechenbeschaffenheit = oberflächenbeschaffenheit;
+    public void setOberflaechenbeschaffenheit(String oberflaechenbeschaffenheit) {
+        this.oberflaechenbeschaffenheit = oberflaechenbeschaffenheit;
     }
 
     public int getAlter() {
@@ -56,5 +56,10 @@ public class Katze {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void getInfo (){
+        System.out.println("Name der Katze" + this.name + "Farbe: " + this.farbe + "Oberflaechebeschaffenheit: " +
+                this.oberflaechenbeschaffenheit + "Charakter: " + this.charakter);
     }
 }
